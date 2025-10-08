@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MẪU QUẢNG CÁO CHUYỂN ĐỔI CAO: ADVERTORIAL/ STORYTELLING</title>
+    <!-- Tích hợp Tailwind CSS để làm đẹp giao diện -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Sử dụng font Inter cho toàn bộ trang để có giao diện hiện đại */
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        /* Style cho nội dung bài viết, giữ nguyên các dấu xuống dòng */
+        .ad-content {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        /* Style riêng cho phần phân tích để làm nổi bật */
+        .analysis-block {
+            background-color: #f8fafc; /* bg-slate-50 */
+            border-left: 4px solid #cbd5e1; /* border-slate-300 */
+            padding: 1rem;
+            margin: 1rem 0;
+            font-style: italic;
+            color: #475569; /* text-slate-600 */
+            border-radius: 0 0.5rem 0.5rem 0;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <div class="container mx-auto px-4 py-8 md:py-12">
+        <header class="text-center mb-10">
+            <h1 class="text-4xl font-bold text-gray-800">MẪU QUẢNG CÁO CHUYỂN ĐỔI CAO</h1>
+            <h2 class="text-2xl text-gray-700 mt-1">Advertorial / Storytelling</h2>
+            <p class="text-lg text-gray-600 mt-4">Bộ sưu tập các mẫu quảng cáo kinh điển (Swipe File) được tuyển chọn, phân tích và sắp xếp bởi Lê Hữu Tuyến.</p>
+            <div class="mt-4 text-sm text-gray-500">
+                <p>Triết lý: "Người làm kinh doanh phải là người tự viết được quảng cáo chuyển đổi cao cho chính mình".</p>
+                <p>Cập nhật ngày 27/06/2025</p>
+            </div>
+        </header>
+
+        <!-- Vùng chứa các thẻ quảng cáo -->
+        <main id="ads-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Dữ liệu quảng cáo sẽ được chèn vào đây bằng JavaScript -->
+        </main>
+
+        <footer class="text-center mt-12 text-gray-500">
+            <p>&copy; 2025 - Canvas được tạo để hỗ trợ quá trình viết quảng cáo chuyển đổi cao.</p>
+        </footer>
+    </div>
+
+    <script>
+        // --- Dữ liệu quảng cáo đã được bổ sung phân tích và nội dung gốc ---
+        const adMasterList = [
+          {
+            "id": "ad_1_storyselling",
+            "title": "Bài 1 - Dạng Storyselling",
+            "type": "Storytelling",
+            "analysis": "Mẫu quảng cáo này sử dụng kỹ thuật kể chuyện (Storytelling) với một khởi đầu đầy tham vọng và một cú sốc thực tế (\"KHÔNG AI MUA\"). Việc sử dụng một câu chuyện cá nhân tạo ra sự đồng cảm và gần gũi. Điểm cao trào được tạo ra bởi một \"cliffhanger\" (câu chuyện còn dang dở) ở cuối bài, khơi gợi sự tò mò và buộc người đọc phải nhấp vào link để khám phá phần còn lại của câu chuyện.",
+            "content": "5 năm về trước, tôi bắt đầu kinh doanh trên Internet...\nĐó là một sản phẩm đơn giản.\nNó có tên La Jolie.\nNhư bao người trẻ mới khởi nghiệp, tôi đầu tư đủ thứ xịn nhất, từ bài PR trên báo, từ thiết kế đẹp, thuê quay chụp đắt tiền,...\nĐầu tư nhiều như thế, tôi nghĩ sản phẩm của tôi đã được trải thảm những thứ tốt nhất.\nTôi nghĩ mọi người sẽ tranh nhau mua nó, yêu thích nó, thậm chí giới thiệu nó cho bạn bè...\nTôi nghĩ tôi sắp giàu, tôi sắp thành đạt!!\nRồi mọi người sẽ thi nhau nói về tôi, đến nỗi người yêu cũ cũng sẽ quay lại với tôi, năn nỉ cầu xin tôi sự thương sót…\nTôi tỉ mỉ từng chi tiết, thuê người review.\nBook hẳn Agency để chạy quảng cáo.\nMọi thứ đều hoàn hảo.\nNgoại trừ…\nKHÔNG AI MUA SẢN PHẨM CỦA TÔI!!\n=> Nhưng mọi vấn đề vẫn chưa dừng lại, những gì diễn ra sau đó mới khiến chúng ta phải kinh ngạc...\nBạn hãy xem toàn bộ quá trình của tôi ở đây:\n[Link landing landing page]\nCứ thử, rồi bạn sẽ thấy..."
+          },
+          {
+            "id": "ad_2_secret",
+            "title": "Bài 2 - Dạng Secret",
+            "type": "Secret",
+            "analysis": "Bài viết này khai thác mạnh mẽ tâm lý tò mò và cảm giác độc quyền qua hook \"bí mật\". Nó mượn câu chuyện của \"người thứ ba\" (cô bạn thân) để tạo ra bằng chứng xã hội một cách tự nhiên. Bằng cách định vị sản phẩm là \"thủ công\", \"không đại trà\", nó đánh vào nhu cầu sở hữu những thứ khác biệt và cá nhân hóa, biến nước hoa từ một sản phẩm thành một \"vũ khí bí mật\" đầy quyến rũ.",
+            "content": "Tôi sắp sửa chia sẻ với bạn một bí mật - Nhưng bạn phải hứa với tôi ko được kể với ai...\nTôi có 1 cô bạn thân. Một cô gái hết sức bình thường, ko xinh đẹp, cũng chẳng duyên dáng nhưng cô ấy luôn là tâm điểm chú ý và được mọi người quan tâm chiều chuộng mỗi khi xuất hiện. Ngoài ra cô còn vô cùng tự tin, chẳng thế mà cô khiến bao chàng trai phải chết mê chết mệt.\nHẳn cô ấy có bí quyết. Chẳng ai biết đó là gì. Rồi một ngày tôi đề nghị tiết lộ.\nCô ấy nói rằng chính mùi hương là thứ vũ khí bí mật mà cô có, tôi thuyết phục cô ấy chia sẻ và phải rất vất vả tôi mới có được cái tên. Cô ấy nói tiếp:\n\"Ko giống những chai nước hoa được đóng sẵn ngoài kia. Những mùi hương này ko sản xuất đại trà, chúng được điều chế bằng tay theo sở thích của khách hàng và dành riêng cho họ mà thôi. Chỉ khi khách đặt hàng, nước hoa mới đc pha, như vậy sẽ giữ được chất lượng và sự tinh nguyên của mùi vị. Thứ nước hoa tinh khiết, trong trẻo và toả ngát hương thơm...\"\nTôi vô cùng hoài nghi và quyết định thử. Và sau đó...\nTôi như lặng đi ngay khi những màn sương nước hoa đầu tiên phảng phất trên tay.\nThứ mùi hương này thực sự kì lạ, từ những note hương đầu nhẹ nhàng đến tầng hương cuối dữ dội.\nSự hòa quyện hoàn hảo này trở nên lấp lánh cùng và cũng thật ma mị, cuốn xoáy cảm xúc của bất cứ kẻ nào bước đến gần.\nĐể mà nói, các cô gái xịt những mùi hương này mang một ma lực cực mạnh. Ko một ng đàn ông nào có thể cưỡng lại dc sự quyến rũ đó. Nói đơn giản là \"Em ơi ko cần cưa đâu để anh tự đổ !!!!\"\n---------------------------------\nNhận được cơn mưa lời khen trong suốt thời gian qua, hiện hãng đang bán với mức giá ưu đãi đáng kinh ngạc. Nhìn mà xem, bạn ko cần phải mất đến hàng ngàn đô để tận hưởng nước hoa thủ công cao cấp.\nHãy nhanh tay trải nghiệm, rất có thể nó sẽ khiến bạn và mọi người xung quanh phát cuồng!\nBạn có thể tìm hiểu và đặt hàng tại [Link landing landing page]\nCứ thử, và bạn sẽ thấy..."
+          },
+          {
+            "id": "ad_7_third_door",
+            "title": "Bài 7 - Case Study: 'Lối Tắt Thứ Ba'",
+            "type": "Storytelling Hiện Đại",
+            "analysis": "Mẫu quảng cáo này là một biến thể hiện đại của cấu trúc \"so sánh A-B\" kinh điển. Nó tạo ra một câu chuyện đối lập giữa hai con đường: \"lối mòn\" (chăm chỉ đơn thuần) và \"lối tắt\" (làm việc thông minh). Ý tưởng lớn (Big Idea) ở đây là \"Lối Tắt Thứ Ba\" - một khái niệm đầy khơi gợi, định vị Conversion Copywriting như một \"bí mật\" hay \"lối đi riêng\" để đạt được thành công vượt trội, đánh vào tâm lý muốn có lợi thế và đi trước đám đông của độc giả.",
+            "content": "Một câu chuyện khiến chúng ta run rẩy, và kết quả cuối cùng thực sự là gì?\nBước vào năm nhất tại một trường đại học nọ...\nCó hai chàng sinh viên luôn chiếm vị trí bàn cuối mỗi khi đến lớp.\nHóa ra họ giống nhau đến lạ.\nCả hai đều chán học, đều hoài bão, và đều tự kinh doanh riêng sau khi ra trường...\nSự khác biệt lớn nhất là một người luôn làm việc theo 'lối mòn' thông thường, theo anh chăm chỉ và kiên trì là đủ để thành công.\nNgười còn lại thì luôn tìm 'lối tắt' cho mọi việc.\nAnh ta tin rằng kinh doanh online cũng sẽ luôn tồn tại các lối tắt để hack... tiền.\nVài năm sau, người luôn đi tắt lại sớm thành đạt với nhà riêng, xe xịn và một cô vợ hoa khôi...\nRất nhanh người này trở thành hình mẫu của cả một lớp trẻ cùng thời.\nCòn người kia tuy rất chịu khó thế nhưng cuộc sống lại luôn ở trong chế độ sinh tồn.\nTất cả là do một trong hai người đã tìm ra lối đi tốt hơn để theo đuổi...\nBởi đạt thành công giống như cố gắng vào một sự kiện độc quyền. \nCó hai lối chính: \n1. Lối thường, nơi mọi người xếp hàng đợi và hy vọng vào được\n2. Lối VIP, là lối riêng dành cho các tỷ phú, celeb và giới tinh hoa...\nĐiều mà hầu hết mọi người ko nhận ra là luôn có… Lối Tắt Thứ Ba.\nĐó là lối vào mà bạn phải tách khỏi đám đông, chạy vào ngõ hẻm, trèo qua cửa sổ hay lẻn đi cửa bếp...\nNhững người thành đạt nhất, họ ko xếp hàng đợi, mà họ đi qua Lối Tắt Thứ Ba!\"\n---A.Banyan---\nMột trong số lối tắt là Conversion Copywriting, về căn bản nó là các thủ thuật thao túng trong quảng cáo...\n... chính nó đã giúp tôi đi từ nợ nần đến bán cả nghìn đơn hàng một ngày, trong thời gian kỷ lục!\nGiờ hãy bình tĩnh và hít thở sâu, tôi sẽ dẫn bạn bước vào... Lối Tắt Thứ Ba: Link landing page"
+          },
+          {
+            "id": "ad_5_tai_lopez_storytelling",
+            "title": "Bài 5 - Case Study: Tai Lopez 'Conquer Your Mountain'",
+            "type": "Storytelling Cổ Điển",
+            "analysis": "Bài quảng cáo này là một kiệt tác về việc sử dụng phép ẩn dụ (\"chinh phục ngọn núi\") để truyền tải một thông điệp đầy cảm hứng. Tai Lopez không bán một khóa học, mà bán một \"cuộc đời phi thường\". Bằng cách viện dẫn những tên tuổi lớn (Bill Gates, Gandhi, Steve Jobs), ông tạo ra uy tín và bằng chứng xã hội mạnh mẽ. Thông điệp được cá nhân hóa cho từng đối tượng (phụ nữ/nam giới tham vọng), tối ưu hóa sự liên quan và hiệu quả.",
+            "content": "Ghi chú của người biên tập: Dưới đây là bản chép lại nội dung từ một trong những chiến dịch quảng cáo trực tuyến thành công và nổi tiếng nhất của Tai Lopez. Bài viết này là một ví dụ kinh điển về việc sử dụng kỹ thuật Storytelling (kể chuyện) và cấu trúc Vấn đề - Giải pháp để tạo ra một thông điệp đầy sức ảnh hưởng và thuyết phục, thu hút hàng triệu người quan tâm.\n\n---------------------------------\n\nPhiên bản đầy đủ\n\nBạn đang đứng trên một ngọn núi cao 1.000 feet phía trên những ánh đèn, ngắm nhìn một thành phố với hàng triệu người đang vô thức di chuyển trong cuộc sống bình thường của họ.\nCuộc sống trên đây rất đơn giản.\nHoặc bạn hòa vào đám đông dưới đó...\n... hoặc bạn tiếp tục leo lên.\nKhông thỏa hiệp, không than vãn, không viện cớ, không có cơ hội thứ hai.\nCon đường của bạn liên tục bị bắn phá bởi những người bên dưới nói với bạn rằng bạn không thể làm được...\n...nhưng mỗi bước bạn đi là một bước nói với họ rằng bạn có thể.\nBạn đang đứng ở vạch xuất phát của một cuộc đời phi thường.\nĐây là ngọn núi của bạn.\nMọi người bên dưới đều nói rằng nó không thể bị đánh bại...\nNhưng BẠN không phải là tất cả mọi người.\nTôi tin rằng bạn có thể chinh phục ngọn núi này...\n...đó là lý do tại sao tôi đã tạo ra 67 Bước.\n67 Bước đến từ những lời dạy của những người quyền lực và nổi tiếng đã chinh phục ngọn núi của riêng họ và sống một cuộc đời phi thường.\nNhững người như Bill Gates, Charlie Munger, Peter Drucker, Gandhi, Stephen Hawking, Plato, Oprah Winfrey, Steve Jobs, Pablo Picasso, Đức Đạt Lai Lạt Ma, cùng với những người cố vấn triệu phú của riêng tôi.\n67 Bước này sẽ là kim chỉ nam của bạn để tránh một cuộc đời lãng phí.\nTrong mỗi cuộc đời, đều có một ngọn núi.\nNhấp vào đây để chinh phục ngọn núi của bạn -> https://lehuutuyen.com/\n\n---------------------------------\n\nCác biến thể quảng cáo\n\nDành cho Phụ nữ tham vọng:\nTiêu đề: Dành cho những người phụ nữ tham vọng sẵn sàng leo lên...\nCảnh báo: CẢNH BÁO: Điều này chỉ dành cho những người phụ nữ tham vọng...\nLiên kết: WWW.TAILOPEZ.COM/THREE\n\nDành cho Nam giới tham vọng:\nTiêu đề: Dành cho những người đàn ông tham vọng sẵn sàng chinh phục...\nCảnh báo: CẢNH BÁO: Điều này chỉ dành cho những người đàn ông tham vọng.\nLiên kết: WWW.TAILOPEZ.COM/THREE\n\nNGUỒN: https://swiped.co/wp-content/uploads/2017/03/tai-lopez-men-women-facebook.png"
+          },
+           {
+            "id": "ad_3_advertorial",
+            "title": "Bài 3 - Dạng Advertorial",
+            "type": "Advertorial",
+            "analysis": "Đây là một mẫu quảng cáo ngụy trang (Advertorial) điển hình, sử dụng cấu trúc Vấn đề - Kích động - Giải pháp (Problem-Agitate-Solve). Nó bắt đầu bằng cách phá vỡ một niềm tin phổ biến (\"bà bầu không được dùng mỹ phẩm\") để thu hút sự chú ý. Câu chuyện cá nhân của \"chị\" làm cho vấn đề trở nên gần gũi và đáng tin cậy, sau đó khéo léo giới thiệu sản phẩm như một giải pháp an toàn, tự nhiên và là \"cứu cánh\" cho vấn đề đó.",
+            "content": "Đừng có tin nếu ai đó nói bà bầu không được dùng mỹ phẩm!\nMang bầu tháng đến tháng 5, chị cảm giác như mình đã không thể chịu nỗi nữa. Không make up, không kẻ mắt, thâm chí đến chút son môi cũng không dám dùng. Tất cả chỉ vì lo ảnh hưởng đến con.\nTrước đây, vốn là người coi trọng hình thức, chị luôn có quan điểm mỗi khi ra ngoài mình phải thật xinh đẹp. Nếu không xinh, chị sẽ không tự tin. Vậy nên thời con gái chị học trang điểm từ rất sớm. Ấy vậy mà từ khi biết mình mang thai, mọi thứ đều phải dừng lại hết. Xuất phát từ ý thức của bản thân, từ chồng, rồi mẹ chồng, đều thấy rằng việc dùng mỹ phẩm chứa #hóa_chất_độc_hại sẽ gây ảnh hưởng đến thai nhi. Vậy là từ đó, chị luôn ra ngoài với khuôn mặt mộc. Mấy tháng đầu còn đỡ, giờ càng ngày khuôn mặt càng #tái_nhợt, #xanh_xao, đôi môi luôn khô khốc nứt nẻ. Nhìn mình trong gương mà chán.\nCứ thế này mãi không thể được. Chị phải nghĩ cách. Tìm hiểu thông tin thì thấy nguyên nhân chính khiến bầu không nên dùng mỹ phẩm đó là nguy_cơ của các thành phần trong đó. Ví dụ trong son, phấn hay có chì, trong sản phẩm chăm sóc da hay có chất bảo quản.\nNhư vậy, chỉ cần tìm được một sản phẩm an toàn, không chứa các chất trên là được phải không!\nTiếp đó, chị hướng đến những sản phẩm có nguồn gốc từ thiên nhiên. Trong quá trình tìm hiểu, tình cờ chị biết đến son không chì của Cỏ mềm được khá nhiều người yêu thích. Đọc bảng thành phần thấy nguồn gốc 100% từ thiên nhiên nên lại càng yên tâm, chị mua 1 thỏi dùng thử. Không dày như son lỳ, không bóng như son kem, đánh lên môi có cảm giác: mỏng, mềm, mịn, rất tự nhiên. Vậy nên, chị hoàn toàn không có cảm giác là mình đang đánh son.\nGiờ đây, mỗi khi đi chơi hay đi làm, chị đều thoa chút son môi cho hồng hào, rạng rỡ. Không chỉ vậy, chị còn dùng thêm các sản phẩm thiên nhiên khác của Cỏ mềm về chăm sóc da, xà bông thiên nhiên, đều rất thích ấy. Ai nói bà bầu không được dùng mỹ phẩm chứ?!"
+          },
+          {
+            "id": "ad_6_wsj_two_men",
+            "title": "Bài 6 - Case Study: The Wall Street Journal 'Two Men'",
+            "type": "Direct Mail Cổ Điển",
+            "analysis": "Đây là bức thư bán hàng được coi là huyền thoại trong giới Direct Mail, sử dụng cấu trúc so sánh \"A-B\" (Two Men) một cách bậc thầy. Nó không nói về sản phẩm, mà kể một câu chuyện về hai số phận khác biệt. Sự tò mò được đẩy lên đỉnh điểm với câu hỏi \"Điều Gì Đã Tạo Ra Khoảng Cách Ấy?\". The Wall Street Journal được định vị không phải là một tờ báo, mà là \"KIẾN THỨC HÀNH ĐỘNG\" - thứ vũ khí đã tạo nên sự khác biệt đó, biến việc đọc báo thành một khoản đầu tư cho thành công.",
+            "content": "Ghi chú của người biên tập: Dưới đây là bản chép lại của một trong những bức thư bán hàng trực tiếp (direct mail) thành công nhất mọi thời đại, thường được biết đến với tên gọi \"Câu chuyện hai người đàn ông\". Bức thư này được viết bởi Martin Conroy và đã giúp The Wall Street Journal thu về hơn 2 tỷ đô la doanh thu từ các thuê bao trong suốt nhiều năm. Đây là một ví dụ mẫu mực về nghệ thuật viết quảng cáo dựa trên sự so sánh người A - người B, kể chuyện và tạo ra sự khác biệt tinh tế nhưng đầy sức nặng.\n\n---------------------------------\n\nTHE WALL STREET JOURNAL\nThân gửi Quý độc giả,\nHãy tưởng tượng hai người đàn ông.\nCùng tốt nghiệp một trường đại học. Cùng một ngày cuối xuân đẹp trời, cách đây hai mươi lăm năm.\nHọ rất giống nhau.\nCả hai đều thông minh. Cả hai đều dễ mến. Cả hai đều mang trong mình những giấc mơ rực cháy về một tương lai xán lạn.\nHôm nay, họ gặp lại nhau trong buổi họp lớp kỷ niệm 25 năm.\nHọ vẫn còn rất giống nhau.\nCả hai đều có một gia đình hạnh phúc. Cả hai đều có ba người con.\nVà cả hai, suốt 25 năm qua, đều làm việc cho cùng một công ty.\nNhưng có một vực thẳm ngăn cách họ.\nMột người chỉ là quản lý của một phòng ban nhỏ.\nNgười còn lại… là Chủ tịch của chính công ty đó.\n\nĐiều Gì Đã Tạo Ra Khoảng Cách Ấy?\n\nBạn có bao giờ tự hỏi, điều gì đã tạo ra sự khác biệt đến như vậy trong cuộc đời mỗi người chưa?\nTrí thông minh? Không phải. Cả hai đều rất thông minh.\nTài năng hay sự chăm chỉ? Cũng không phải.\nKhát vọng thành công? Cả hai đều có thừa.\nKhông. Sự khác biệt chết người đó nằm ở một thứ khác.\nNó nằm ở những gì mỗi người biết.\nVà quan trọng hơn, cách họ sử dụng những gì họ biết.\nVà đây chính là lý do bức thư này tìm đến bạn.\nBởi vì tại The Wall Street Journal, chúng tôi không bán giấy và mực.\nChúng tôi trao cho bạn thứ quyền năng đã tạo nên sự khác biệt đó.\nChúng tôi trao cho bạn KIẾN THỨC HÀNH ĐỘNG.\n\nMột Lợi Thế Không Thể Sao Chép\n\nMỗi buổi sáng, The Wall Street Journal không chỉ mang đến tin tức. Nó mang đến một lợi thế.\nBạn sẽ nhìn thấu những biến động ngầm của thị trường.\nBạn sẽ hiểu những thay đổi trong chính sách sẽ ảnh hưởng đến túi tiền của bạn ra sao.\nBạn sẽ thấy những cơ hội mà hàng ngàn người khác đang bỏ lỡ.\nTừ chiến lược thuế đến các thương vụ bạc tỷ. Từ những biến động trong chuỗi cung ứng đến những ý tưởng khởi nghiệp sẽ định hình tương lai.\nĐây không phải là những thông tin bạn có thể tìm thấy ở bất cứ đâu.\nĐây là bức tranh toàn cảnh. Đây là vũ khí cho những người muốn dẫn đầu.\n\nBiến Kiến Thức Thành Sức Mạnh\n\nNếu chưa từng đọc The Journal, bạn khó có thể tưởng tượng được sức mạnh mà nó mang lại.\nThông tin trong đó không chỉ để biết. Mà là để hành động.\nĐể bạn đưa ra những quyết định sáng suốt hơn. Tự tin hơn. Và sinh lời nhiều hơn.\n\nMột Khoản Đầu Tư Cho Chính Bạn – Gần Như Không Rủi Ro\n\nĐừng chỉ tin lời tôi. Hãy tự mình trải nghiệm.\nBạn có thể bắt đầu hành trình này chỉ với 44 đô la cho những tuần tiếp theo.\nHoặc đầu tư cho cả một năm đột phá với 149 đô la – tiết kiệm hơn 90 đô la so với giá bìa.\nChỉ cần điền vào phiếu đăng ký.\nVà đây là lời đảm bảo của tôi: Nếu bất cứ lúc nào bạn không cảm thấy mình đang nhận được lợi thế mà tôi đã hứa, chỉ cần cho chúng tôi biết. Chúng tôi sẽ hoàn lại trọn vẹn số tiền cho phần thuê bao chưa sử dụng. Không một câu hỏi nào.\nHãy quay lại với hai người bạn học cũ của chúng ta.\nĐiều gì đã thực sự tạo nên số phận khác biệt của họ?\nKhông phải may mắn. Không phải định mệnh.\nMà chính là những lựa chọn nhỏ mỗi ngày.\nLựa chọn trang bị cho mình thứ vũ khí quyền năng nhất: KIẾN THỨC HÀNH ĐỘNG.\nTương lai của bạn trong 25 năm tới được quyết định bởi những gì bạn làm hôm nay.\nHãy điền vào phiếu đăng ký ngay bây giờ.\nVà hãy để chúng tôi bắt đầu trao cho bạn lợi thế đó.\nTrân trọng,\n(Chữ ký của Peter R. Kann)\nPeter R. Kann\nNhà xuất bản\n\nTÁI BÚT: Một khoản đầu tư thông minh luôn mang lại lợi nhuận. Giá thuê bao The Journal của bạn có thể được khấu trừ thuế.\n\nNGUỒN: https://swiped.co/file/wallstreet-letter-conroy/"
+          },
+          {
+            "id": "ad_10_timeless_skill",
+            "title": "Bài 10 - Case Study: Kỹ Năng Vượt Thời Gian",
+            "type": "Lập Luận Nguyên Lý Gốc",
+            "analysis": "Lập luận này đạt đến đỉnh cao của việc xây dựng giá trị bằng cách đối lập những thứ 'tạm thời' (nền tảng, thuật toán) với những thứ 'vĩnh cửu' (tâm lý con người). Nó định vị kỹ năng 'chuyển đổi' không phải là một mẹo, mà là sự thấu hiểu các nguyên tắc bất biến của con người. Điều này biến nó thành tài sản quý giá nhất, một 'kỹ năng nguy hiểm' mang lại lợi thế cạnh tranh tuyệt đối và bền vững theo thời gian.",
+            "content": "Khả năng 'chuyển đổi' từ một người lạ trở thành khách hàng trả tiền thực sự là kỹ năng kiếm tiền nguy hiểm nhất mà bất cứ ai cũng từng hy vọng có được.\nBởi các nền tảng quảng cáo có thể thay đổi.\nThuật toán thay đổi. \nHành vi của con người thay đổi. \nNhưng các nguyên tắc căn bản về Tâm Lý Học như tìm tìm hiểu xem mọi người muốn gì, rồi trình bày sản phẩm của mình theo cách đáp ứng những mong muốn ấy một cách Thuyết Phục nhất...\nChúng là những kỹ thuật vượt thời gian, chúng đã hiệu quả cách đây 100 năm và sẽ tiếp tục như vậy trong 1.000 năm tới!\nKhi tìm hiểu sâu hơn, bạn sẽ phát hiện ra rằng bài quảng cáo tốt có thể dễ dàng tăng gấp 10, 20 lần, thậm chí 100 lần doanh số của bạn do hiệu ứng điên rồ của thứ gọi là “tối ưu hóa chuyển đổi” - Conversion Copywriting.\nXem thêm tại: [link landing page]\nCứ thử, rồi bạn sẽ thấy..."
+          },
+          {
+            "id": "ad_4_one_to_many",
+            "title": "Bài 4 - Kỷ Nguyên Một => Nhiều",
+            "type": "Tư Duy Marketing",
+            "analysis": "Lập luận của bài viết này dựa trên một Ý Tưởng Lớn (Big Idea) mạnh mẽ: sự dịch chuyển từ kỷ nguyên \"Một => Một\" sang \"Một => Nhiều\". Bằng cách tạo ra sự tương phản rõ rệt, nó định vị Copywriting không phải là một kỹ năng thông thường, mà là một công cụ đòn bẩy thiết yếu để nhân quy mô kinh doanh. Nó đánh thẳng vào giới hạn về thời gian và công sức, sau đó trình bày giải pháp như một hệ thống tự động hóa việc bán hàng.",
+            "content": "Chúng ta đang dần chứng kiến sự kết thúc của kỷ nguyên...\nMỘT => MỘT\nGiờ là thời đại của...\nMỘT => NHIỀU!\nBạn có thể kiếm được tiền từ việc bán từng sản phẩm một. \nNhưng một ngày chỉ có 24 giờ.\nBạn có thể gọi rất nhiều cuộc, gặp rất nhiều người...\nNhưng nếu giới hạn bản thân trong việc tiếp cận và thuyết phục từng người một, bạn sẽ không thể kiếm được nhiều tiền.\nĐể làm được điều này, bạn phải sử dụng Copywriting để thuyết phục nhiều người cùng lúc. \nĐó không còn chỉ là Một - Một, mà là Một - Nhiều.\nBạn càng tiếp cận và thuyết phục được nhiều người thì bạn càng kiếm được nhiều tiền. \nVì vậy, nếu bạn chỉ bán hàng trực tiếp và thuyết phục khách hàng ở cấp độ cá nhân, tỷ lệ của bạn bị giới hạn ở mức 1:1 hoặc tối đa là 1:10.\nNhưng nếu bạn sử dụng Copywriting để tạo ra những bài quảng cáo thuyết phục, sau đó chạy ads để tiếp cận khách hàng ở cấp độ lớn...\n... tỷ lệ của bạn sẽ là 1:100.000, hoặc hơn.\nLúc này bài quảng cáo đóng vai trò như một chuyên gia bán hàng online 24/7, nó có nhiệm vụ thuyết phục khách hàng mua sắm.\nNó sẽ tự động ra đơn mà không cần bạn phải có mặt!\nCuối cùng, nếu bạn muốn tạo ra những bài quảng cáo đỉnh cao khiến khách hàng sốt ruột trả tiền...\nHãy tham khảo ngay kỹ năng Conversion Copywriting:\n[Link landing landing page]"
+          },
+          {
+            "id": "ad_11_sharpen_the_axe",
+            "title": "Bài 11 - Case Study: Mài Rìu Trước Khi Chặt Cây",
+            "type": "Lập Luận 80/20",
+            "analysis": "Kỹ thuật cốt lõi ở đây là tạo ra một \"kẻ thù chung\" (99% quảng cáo nhàm chán) để xây dựng sự đồng cảm. Sau đó, bài viết định vị giải pháp như một \"vũ khí bí mật\" của nhóm 1% ưu tú, đánh vào tâm lý muốn trở nên khác biệt và vượt trội. Phép ẩn dụ \"mài rìu\" của Lincoln là một cú chốt hạ kinh điển, biến việc \"tối ưu hóa quảng cáo\" từ một công việc tẻ nhạt thành một hành động chuẩn bị khôn ngoan của người chiến thắng.",
+            "content": "Bạn có phát mệt với 99% những bài quảng cáo bạn bắt gặp hàng ngày?\nĐó là những bài quảng cáo ở chế độ sinh tồn, nó được tạo ra chỉ để nhằm mục đích nói cho khách hàng biết là họ có tồn tại.\nNó cố gắng gào thét: \"chúng tôi ở đây, sản phẩm chúng tôi tốt nhất, hãy mua hàng của chúng tôi\"\nHọ đưa ra nào là Dịch vụ tốt nhất, sản phẩm tốt nhất, uy tín nhất, hơn 10 năm kinh nghiệm, blah blah blah...'\nMọi quảng cáo về cơ bản đều nói những điều giống nhau. \nTuy nhiên, để tôi tiết lộ một bí mật, 1% các bài quảng cáo còn lại sẽ ăn hết doanh thu và lợi nhuận của 99% các bài quảng cáo giống nhau ngoài kia.\nĐó là những bài quảng cáo được tối ưu hóa cho mục đích 'chuyển đổi', nó có tỷ lệ chuyển đổi cao.\nDo đó, càng đem về nhiều traffic, những bài quảng cáo đó càng kiếm được nhiều tiền.\nVì vậy, hơn bao giờ hết, bạn cần phải tối ưu bài quảng cáo của mình trước khi đem nó đi chạy quảng cáo hay tiếp thị nó bằng bất cứ hình thức nào khác.\nNhư Abraham Lincoln đã nói:\n\"Nếu cho tôi 5 giờ để chặt cây, tôi sẽ dành tới 4 giờ đầu tiên, chỉ để mài rìu...\""
+          },
+          {
+            "id": "ad_13_untrained_staff",
+            "title": "Bài 13 - Case Study: Nhân Viên Không Được Đào Tạo",
+            "type": "Lập Luận Ẩn Dụ",
+            "analysis": "Phép ẩn dụ trong bài viết này cực kỳ mạnh mẽ. Nó so sánh việc 'chạy ads với copy tệ' với hình ảnh 'mở cửa hàng nhưng không đào tạo nhân viên bán hàng'. Đây là một hình ảnh đời thường, dễ hiểu, ngay lập tức phơi bày sự phi lý và lãng phí của việc chỉ tập trung vào thu hút traffic mà bỏ qua khâu chuyển đổi. Lập luận này đánh thẳng vào nỗi đau 'đốt tiền' và củng cố vị thế không thể thiếu của Conversion Copywriting.",
+            "content": "Hầu hết người kinh doanh bỏ ra số tiền lớn, gấp 50 đến 100 lần, để mua quảng cáo nhằm tiếp cận nhiều khách hàng hơn, tuy nhiên họ lại chi rất ít tiền để chuyển đổi những đối tượng đó thành tiền bạc.\nĐiều này giống như việc bạn tiêu tốn một khoản tiền lớn để đem tới thật nhiều những khách hàng tiềm năng, nhưng bạn lại không đào tạo nhân viên trước để có thể bán được hàng!\nHọ cứ nghĩ bỏ nhiều tiền vào chạy quảng cáo, có nhiều traffic thì sẽ có nhiều lượt mua.\nĐây là một sai lầm khủng khiếp!\nBởi thế, không có gì ngạc nhiên khi tỷ lệ chuyển đổi trong kinh doanh online nói chung lại thấp như vậy. \nHầu như mọi người đều làm việc sai cách.\nHãy nhớ rằng, dù bạn sử dụng bất kỳ nền tảng quảng cáo nào (Facebook Ads, Google Ads, Tiktok Ads...), thì nó chỉ có ý nghĩa khi bạn có bài quảng cáo có tỷ lệ chuyển đổi cao.\nDù đó là bài quảng cáo trên mạng xã hội, video hay trang bán hàng...\nNếu không, bạn đang đốt tiền!\nDo đó, hãy đầu tư nhiều tiền và công sức vào việc tạo ra những bài quảng cáo tốt hơn (Copywriting) để bán hàng cho mọi người khi bạn tiếp cận họ.\nNói cách khác, hãy đầu tư nhiều hơn vào \"tỷ lệ chuyển đổi\" (Conversion Copywriting)."
+          },
+          {
+            "id": "ad_12_welcome_30k_customers",
+            "title": "Bài 12 - Case Study: Chào Đón 30k Khách Hàng",
+            "type": "Lập Luận Dẫn Dắt",
+            "analysis": "Bài viết không áp đặt mà dùng một loạt câu hỏi tu từ để dẫn dắt người đọc tự suy ngẫm về quy trình của mình. Kỹ thuật này khéo léo thay đổi khung nhận thức từ 'chạy ads' (hành động kỹ thuật) sang 'chào đón khách hàng' (hành động chiến lược), từ đó làm nổi bật sự yếu kém của việc 'làm cho có' và nhấn mạnh giá trị của việc chuẩn bị kỹ lưỡng thông điệp (Copywriting) trước khi tiếp cận hàng loạt.",
+            "content": "Để tôi hỏi bạn, giả sử bạn thả 500k đồng vào Facebook Ads, và bạn tiếp cận được khoảng 30k người (tỷ lệ trung bình).\nTức là bạn sắp được hiện ra trước 30k khách hàng mục tiêu!\nVậy bạn sẽ chuẩn bị những gì để chào đón 30k khách hàng mục tiêu đó, liệu bạn có làm gì để chào mừng họ không, bạn có tỉ mỉ chào mừng họ không?\nHay chỉ đơn giản là bạn nghĩ lên Canva thiết kế đại một cái ảnh, rồi cứ thế chạy ads tiếp cận càng nhiều người càng tốt?\nCó lẽ bạn đang chắc mẩm rằng nếu chạm mặt càng nhiều người mình sẽ có được càng nhiều tiền!\nĐây là sai lầm lớn nhất đối với hầu hết những người kinh doanh online.\nBạn phải 'tối ưu' bạn phải chuẩn bị những gì tốt nhất trước khi trình ra trước mắt họ, những người có khả năng trở thành khách hàng của bạn.\nVậy bạn sẽ nói gì trong bài quảng cáo đó để có thể tối đa hóa số lượt mua hàng?\nBạn sẽ nói gì với họ để họ khao khát và khiến họ buộc phải thực hiện những hành động tiếp theo?\nMọi câu trả lời đều dẫn đến kỹ năng Copywriting!"
+          },
+          {
+            "id": "ad_9_reach_vs_persuade",
+            "title": "Bài 9 - Case Study: Tiếp Cận vs. Thuyết Phục",
+            "type": "Phân Tích Vấn Đề",
+            "analysis": "Kỹ thuật lập luận trong bài này là \"Tái định vị vấn đề\". Thay vì bàn luận lan man, tác giả chủ động đơn giản hóa \"kinh doanh\" thành 2 bước (Tiếp cận & Thuyết phục). Sau đó, bài viết nhanh chóng hạ thấp giá trị của bước \"Tiếp cận\" (cho rằng ai cũng làm được nhờ quảng cáo), để dồn toàn bộ sự tập trung và nâng tầm quan trọng của bước \"Thuyết phục\". Điều này tạo ra một khoảng trống, một vấn đề cấp thiết trong tâm trí người đọc, và sau đó lấp đầy khoảng trống đó bằng giải pháp duy nhất và tối ưu: Conversion Copywriting.",
+            "content": "Bản chất của mọi hoạt động kinh doanh bán hàng trên đời này...\n...đều sẽ quy về hai bước đơn giản:\n1. Tiếp cận khách hàng\n2. Thuyết phục họ!\nNếu muốn kiếm tiền từ việc kinh doanh...\nBạn 'tiếp cận' khách hàng mục tiêu, sau đó 'thuyết phục' họ trả tiền để mua sản phẩm.\nChỉ thế mà thôi!\nĐừng có nghiên cứu cao siêu, rồi suy luận kinh doanh trở nên phức tạp...\nViệc tách ra làm 2 bước ngắn gọn, sẽ cho bạn một cái nhìn trực quan về những gì cần làm.\nHãy nhớ mục tiêu cuối cùng của kinh doanh luôn là lợi nhuận, nó thường được phản ánh bởi doanh số bán ra.\nNhư vậy ta có phương trình đơn giản:\nTăng doanh số = Tăng lượt tiếp cận + tăng khả năng thuyết phục\nTrước hết, làm sao để tăng lượt tiếp cận khách hàng?\nNgày nay với sự bùng nổ của  quảng cáo mạng xã hội...\nChỉ cần bỏ ra một số tiền nhỏ, bạn có thể tiếp cận hàng chục, hàng trăm nghìn người mỗi ngày...\nCho dù đó là Facebook Ads, Google Ads hay Tiktok Ads...\nTrong khi ngày trước, việc tiếp cận khách hàng với mục đích mua bán chỉ có thể thông qua gặp trực tiếp, gọi điện...\nThì ngày nay, chúng ta có thể tiếp cận số lượng lớn đối tượng chỉ với một khoản phí nhỏ.\nĐó là sự kỳ diệu của kinh doanh online!\nTuy nhiên bước 'tiếp cận' này không khó, hầu như ai cũng có thể tự làm được (suốt 6 năm tôi tự chạy quảng cáo Facebook, tôi hầu như chỉ biết bật tắt camp!).\nChính vì thế, đây không còn là một lợi thế kiếm tiền.\nTất cả sẽ đổ dồn gánh nặng về bước còn lại, đó là 'thuyết phục'.\nHãy hình dung khi khách hàng muốn mua đệm, sẽ có 10 quảng cáo cùng lúc xuất hiện trước mặt họ, họ sẽ chọn ai?\nDĩ nhiên sản phẩm của nhà bán hàng nào thuyết phục được họ nhất, họ sẽ trả tiền.\nDo đó 'thuyết phục' là kỹ năng #1 bạn cần làm chủ nếu muốn kinh doanh thành công trên Internet!\nVà để học khả năng thuyết phục khiến cho người khác trả tiền mua sắm...\n=> 'Conversion Copywriting' là một trong những lựa chọn tốt nhất, nếu không muốn nói là tốt nhất!\nTham khảo thêm về kỹ năng này tại: [link landing page]"
+          },
+          {
+            "id": "ad_8_bitcoin_vs_copywriting",
+            "title": "Bài 8 - Case Study: Bitcoin vs. Copywriting",
+            "type": "Lập Luận So Sánh",
+            "analysis": "Bài viết này sử dụng một cú huých (hook) cực kỳ thời sự và mạnh mẽ: sự tiếc nuối về Bitcoin. Nó ngay lập tức thu hút sự chú ý và tạo ra sự đồng cảm. Sau đó, nó khéo léo chuyển hướng sự tiếc nuối đó (FOMO) từ một cơ hội đã qua sang một cơ hội hiện tại, dễ tiếp cận hơn (Conversion Copywriting). Kỹ thuật lập luận tương phản (Tài sản rủi ro cao vs. Kỹ năng rủi ro thấp) giúp định vị copywriting không chỉ là một khóa học, mà là một khoản đầu tư thông minh, bền vững và vượt trội hơn hẳn.",
+            "content": "\"Nếu có thể du hành thời gian để quay trở về 10 năm trước...\nNgoài việc mua một lượng Bitcoin khổng lồ, tôi sẽ học ngay Conversion Copywriting\"\nNhưng đó là sự nuối tiếc quá khứ, trong bối cảnh hơn một thập kỷ trước.\nVậy hiện tại thì sao?\nỞ thời điểm này, Bitcoin không còn phù hợp để đầu tư khi giá đã quá cao, rủi ro rất lớn.\nHãy so sánh với Conversion Copywriting, khi bạn chỉ cần đầu tư thời gian, rủi ro tụt về mức cận âm, và đặc biệt kết quả có thể thấy ngay chỉ sau vài tuần.\nNó đơn thuần là một kỹ năng, và như bao kỹ năng khác, ai cũng có thể học và trở nên giỏi nó.\nVề căn bản nó là kỹ năng thuyết phục người khác trả tiền mua hàng...\n...bằng cách sử dụng các thủ thuật tâm lý để tác động vào bản năng gốc của con người.\nĐây là thứ đã hiệu quả trong hàng trăm năm qua, và sẽ tiếp tục như vậy trong hàng ngàn năm tới.\nLý do khiến nó chưa phổ biến, một là vì còn rất ít người biết đến nó.\nHai là vì nó phải bỏ thời gian ra để HỌC!\nTrong khi hầu hết mọi người lại không thích học.\nMặc dù chỉ với khoảng 20 giờ tập trung là đã có thể nắm được nền tảng của toàn bộ kỹ năng này...\nNhưng KHÔNG!!\nNhiều người thà bỏ 200 tiếng để học và làm việc cho người khác, nhưng họ không thể bỏ 20 tiếng ra để học cho chính mình.\nNhìn chung, Conversion Copywriting là bộ môn về tâm lý học bản chất con người.\nNên cho dù ở bất cứ giai đoạn phát triển nào trong lịch sử, nó vẫn luôn là \"vàng nguyên chất\".\nNhư vậy rồi đã chỉ cho bạn mỏ vàng là gì, giờ bạn có muốn đào nó hay không?\nHãy truy cập link dưới đây, nếu câu trả lời của bạn là CÓ: [link landing page]"
+          },
+          {
+            "id": "ad_14_secret_formula",
+            "title": "Bài 14 - Case Study: Công Thức Bí Mật 4 Bước",
+            "type": "Lập Luận Công Thức Bí Mật",
+            "analysis": "Mẫu quảng cáo này là một ví dụ kinh điển để thu hút khách hàng tiềm năng (lead magnet). Nó hội tụ các yếu tố tâm lý mạnh mẽ: tò mò (hook 'Đừng xem...'), lời hứa lớn ('công thức 4 bước'), bằng chứng ('3,6 vạn đơn'), và sự khan hiếm ('miễn phí' kết hợp 'sắp bị xoá'). Cấu trúc này tối ưu hóa việc biến người lạ thành người quan tâm, là bước đầu quan trọng trong phễu bán hàng.",
+            "content": "Đừng xem những gì bên dưới!!\nBởi bí mật tôi sắp tiết lộ chắc chắn khiến bạn phát cáu...\n...vì đã không biết nó sớm hơn.\nCuối cùng, sau hơn 1200 giờ nghiên cứu, tôi đã khám phá được...\n\"Một công thức tạo ra bài quảng cáo bán hàng như điên, chỉ trong 4 bước!\"\nTôi đã kinh ngạc khi biết công thức Copywriting 4 bước này có trong hầu hết các bài quảng cáo triệu đô.\nBất kể nó ở dạng chữ hay video.\nChỉ với 4 bước quyền lực:\n1. Phá vỡ\n2. Giữ chân\n3.....\n4.....\nChính nó đã giúp tôi bán được ít nhất 3,6 vạn đơn hàng trên Internet.\nLát tôi sẽ show một trong những bài ads giúp tôi \"nổ\" tới 23k đơn...\n...và cả các bài quảng cáo bán cháy hàng của những người đã sử dụng nó.\nThử hình dung, bạn dùng công thức này để tạo ra bài quảng cáo, sau đó bạn chạy ads bài đó tiếp cận cả triệu người...\nWoo-ee\nSáng ngủ dậy xem, bạn sẽ thấy doanh số của mình bị Ngập Lụt... bởi Lượng Người Mua Như Mưa Trút Nước!\nĐây là tinh hoa của quảng cáo, nó không được chia sẻ rộng rãi. Có lẽ nó chỉ xuất hiện hiếm hoi trong các khoá học cả chục nghìn đô...\nNhưng tôi sẽ tiết lộ hết trong một ebook ngắn, và vì sự kết nối lâu dài với bạn, nên tôi share nó MIỄN PHÍ.\nNgoài ra nó cũng sắp sửa bị XOÁ, bạn hãy tải ngay tại: [link landing page]\nCứ thử, rồi bạn sẽ thấy..."
+          }
+        ];
+
+
+        // --- Hàm để render các mẫu quảng cáo ---
+        function renderAds() {
+            const container = document.getElementById('ads-container');
+            if (!container) return;
+
+            // Xóa nội dung cũ để tránh trùng lặp
+            container.innerHTML = '';
+
+            // --- Logic sắp xếp mới ---
+            // 1. Xác định thứ tự ưu tiên cho các loại tag
+            const typeOrder = [
+                "Storytelling", "Storytelling Hiện Đại", "Storytelling Cổ Điển", "Secret",
+                "Advertorial", "Direct Mail Cổ Điển",
+                "Tư Duy Marketing", "Lập Luận Nguyên Lý Gốc", "Lập Luận 80/20", "Lập Luận Ẩn Dụ", "Lập Luận Dẫn Dắt", "Phân Tích Vấn Đề", "Lập Luận So Sánh",
+                "Lập Luận Công Thức Bí Mật"
+            ];
+            
+            // 2. Sắp xếp danh sách quảng cáo
+            const sortedAds = adMasterList.sort((a, b) => {
+                const typeAIndex = typeOrder.indexOf(a.type);
+                const typeBIndex = typeOrder.indexOf(b.type);
+
+                // So sánh dựa trên vị trí trong mảng typeOrder
+                if (typeAIndex !== typeBIndex) {
+                    return typeAIndex - typeBIndex;
+                }
+
+                // Nếu cùng loại, sắp xếp theo độ dài nội dung (ngắn hơn trước)
+                const lengthA = a.analysis.length + a.content.length;
+                const lengthB = b.analysis.length + b.content.length;
+                return lengthA - lengthB;
+            });
+
+            // 3. Lặp qua danh sách đã sắp xếp và tạo thẻ HTML
+            sortedAds.forEach(ad => {
+                const adCard = document.createElement('div');
+                adCard.className = 'bg-white rounded-lg shadow-lg overflow-hidden flex flex-col transform hover:-translate-y-1 transition-transform duration-300';
+                adCard.id = ad.id;
+                
+                let tagColorClass = 'bg-blue-100 text-blue-800'; // Mặc định
+                const typeColorMap = {
+                    'Tư Duy Marketing': 'bg-green-100 text-green-800',
+                    'Secret': 'bg-purple-100 text-purple-800',
+                    'Advertorial': 'bg-yellow-100 text-yellow-800',
+                    'Storytelling Cổ Điển': 'bg-red-100 text-red-800',
+                    'Direct Mail Cổ Điển': 'bg-gray-200 text-gray-800',
+                    'Storytelling Hiện Đại': 'bg-indigo-100 text-indigo-800',
+                    'Lập Luận So Sánh': 'bg-orange-100 text-orange-800',
+                    'Phân Tích Vấn Đề': 'bg-teal-100 text-teal-800',
+                    'Lập Luận Nguyên Lý Gốc': 'bg-pink-100 text-pink-800',
+                    'Lập Luận 80/20': 'bg-cyan-100 text-cyan-800',
+                    'Lập Luận Dẫn Dắt': 'bg-lime-100 text-lime-800',
+                    'Lập Luận Ẩn Dụ': 'bg-fuchsia-100 text-fuchsia-800',
+                    'Lập Luận Công Thức Bí Mật': 'bg-rose-100 text-rose-800',
+                };
+                if(typeColorMap[ad.type]) {
+                    tagColorClass = typeColorMap[ad.type];
+                }
+
+                const cardContent = `
+                    <div class="p-6 flex-grow flex flex-col">
+                        <div class="flex-grow">
+                             <div class="mb-4">
+                                <span class="inline-block ${tagColorClass} text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">${ad.type}</span>
+                             </div>
+                            <h2 class="text-2xl font-bold text-gray-900 mb-2">${ad.title}</h2>
+                            
+                            <!-- Khối Phân Tích -->
+                            <div class="analysis-block">
+                                <strong>Phân tích ngắn:</strong>
+                                <p class="mt-1">${ad.analysis}</p>
+                            </div>
+
+                            <!-- Nội dung quảng cáo gốc -->
+                            <div class="ad-content text-gray-700 leading-relaxed text-base">
+                                ${ad.content}
+                            </div>
+                        </div>
+                    </div>
+                `;
+                
+                adCard.innerHTML = cardContent;
+                container.appendChild(adCard);
+            });
+        }
+
+        // Chạy hàm render khi trang được tải
+        document.addEventListener('DOMContentLoaded', renderAds);
+    </script>
+</body>
+</html>
